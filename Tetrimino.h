@@ -1,6 +1,13 @@
 #ifndef TETRIMINO_H_
 #define TETRIMINO_H_
 
+enum TETRIMINO_DIR {
+    LEFT = 0,
+    DOWN,
+    RIGHT,
+    UP
+};
+
 class Tetrimino {
     protected:
         char tetrimino[4][4];

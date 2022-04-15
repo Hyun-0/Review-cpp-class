@@ -3,13 +3,6 @@
 
 #include "Tetrimino.h"
 
-enum TETRIMINO_DIR {
-    LEFT = 0,
-    DOWN,
-    RIGHT,
-    UP
-};
-
 class Imino : public Tetrimino {
     private : 
         TETRIMINO_DIR direction;
